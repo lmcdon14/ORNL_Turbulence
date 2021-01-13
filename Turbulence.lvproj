@@ -568,6 +568,310 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Application" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{745B205D-C18F-4F2C-84A4-D9B9EF504493}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{2E928EB4-AC40-4868-B51C-9FB261DBA097}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{8A5CFD4B-2BA7-4289-B333-E59CA571EBFB}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Application</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">..</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{57008922-5A3D-4E3C-9427-215B283C80F3}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Turbulence.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Application.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D16B68BA-ED86-4146-A58B-BE65B6AF05D6}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Turbulence_3.2.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Tests/TestLakeshore218.vi</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].type" Type="Str">VI</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Tests/TestLevelProbe.vi</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Tests/TestLightfield.vi</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].type" Type="Str">VI</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Tests/TestLightfieldSettings.vi</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].type" Type="Str">VI</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Tests/TestMFA.vi</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Tests/TestMFCFill.vi</Property>
+				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[15].type" Type="Str">VI</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Tests/TestMotor.vi</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[16].type" Type="Str">VI</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Tests/TestNeutronDetector.vi</Property>
+				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[17].type" Type="Str">VI</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Tests/TestOpticalShutter.vi</Property>
+				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[18].type" Type="Str">VI</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Tests/TestOscilloscope.vi</Property>
+				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[19].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SubVIs</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Tests/TestPG.vi</Property>
+				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[20].type" Type="Str">VI</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Tests/TestPowerMeter.vi</Property>
+				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[21].type" Type="Str">VI</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Tests/TestRelays.vi</Property>
+				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[22].type" Type="Str">VI</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/Tests/TestTemperature.vi</Property>
+				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[23].type" Type="Str">VI</Property>
+				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/Tests/TestThorlabs.vi</Property>
+				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[24].type" Type="Str">VI</Property>
+				<Property Name="Source[25].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[25].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/DataSlice</Property>
+				<Property Name="Source[25].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[25].type" Type="Str">Container</Property>
+				<Property Name="Source[26].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[26].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Experiment</Property>
+				<Property Name="Source[26].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[26].type" Type="Str">Container</Property>
+				<Property Name="Source[27].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[27].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[27].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/SpecializedAcquire</Property>
+				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[27].type" Type="Str">Container</Property>
+				<Property Name="Source[28].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[28].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Spectrometer</Property>
+				<Property Name="Source[28].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[28].type" Type="Str">Container</Property>
+				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[29].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/LFA_Acquire.vi</Property>
+				<Property Name="Source[29].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[29].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Intialize.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[30].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/LFA_AcquireWithAutosave.vi</Property>
+				<Property Name="Source[30].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[30].type" Type="Str">VI</Property>
+				<Property Name="Source[31].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[31].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/LFA_Close.vi</Property>
+				<Property Name="Source[31].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[31].type" Type="Str">VI</Property>
+				<Property Name="Source[32].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[32].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/LFA_Initialize.vi</Property>
+				<Property Name="Source[32].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[32].type" Type="Str">VI</Property>
+				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[33].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_Callback_Event.vi</Property>
+				<Property Name="Source[33].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[33].type" Type="Str">VI</Property>
+				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[34].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_Close_Image.vi</Property>
+				<Property Name="Source[34].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[34].type" Type="Str">VI</Property>
+				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[35].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_Deregister_for_Callback.vi</Property>
+				<Property Name="Source[35].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[35].type" Type="Str">VI</Property>
+				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[36].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_GetControlCurrentCapabilities.vi</Property>
+				<Property Name="Source[36].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[36].type" Type="Str">VI</Property>
+				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_GetControlCurrentCapabilities_native.vi</Property>
+				<Property Name="Source[37].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[37].type" Type="Str">VI</Property>
+				<Property Name="Source[38].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[38].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_GetData.vi</Property>
+				<Property Name="Source[38].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[38].type" Type="Str">VI</Property>
+				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[39].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_GetWindowsProcesses.vi</Property>
+				<Property Name="Source[39].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[39].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LightField Automation.lvclass</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[40].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[40].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_GetXMLFromLightField.vi</Property>
+				<Property Name="Source[40].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[40].type" Type="Str">VI</Property>
+				<Property Name="Source[41].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[41].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_GetXMLFromSPE.vi</Property>
+				<Property Name="Source[41].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[41].type" Type="Str">VI</Property>
+				<Property Name="Source[42].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[42].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_KillProcessByID.vi</Property>
+				<Property Name="Source[42].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[42].type" Type="Str">VI</Property>
+				<Property Name="Source[43].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[43].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_Obtain_Queue.vi</Property>
+				<Property Name="Source[43].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[43].type" Type="Str">VI</Property>
+				<Property Name="Source[44].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[44].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_ReadLightFieldProperty.vi</Property>
+				<Property Name="Source[44].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[44].type" Type="Str">VI</Property>
+				<Property Name="Source[45].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[45].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_ReadQueueReference.vi</Property>
+				<Property Name="Source[45].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[45].type" Type="Str">VI</Property>
+				<Property Name="Source[46].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[46].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_Register_for_Callback.vi</Property>
+				<Property Name="Source[46].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[46].type" Type="Str">VI</Property>
+				<Property Name="Source[47].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[47].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_Send_Queue.vi</Property>
+				<Property Name="Source[47].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[47].type" Type="Str">VI</Property>
+				<Property Name="Source[48].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[48].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_Support_ParseXML.vi</Property>
+				<Property Name="Source[48].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[48].type" Type="Str">VI</Property>
+				<Property Name="Source[49].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[49].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_Support_SPEtoDataArray.vi</Property>
+				<Property Name="Source[49].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[49].type" Type="Str">VI</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/TypeDefs</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[50].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[50].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_WriteLightFieldProperty.vi</Property>
+				<Property Name="Source[50].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[50].type" Type="Str">VI</Property>
+				<Property Name="Source[51].itemID" Type="Ref">/My Computer/LightField Automation.lvclass/Methods/Advanced/Adv_GetControlCurrentCapabilities_alt.vi</Property>
+				<Property Name="Source[51].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[51].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[51].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[51].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[51].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[51].type" Type="Str">VI</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Tests/Test3He.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Tests/Test4He.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Tests/TestDAQ.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Tests/TestKeithley.vi</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">52</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Application</Property>
+				<Property Name="TgtF_internalName" Type="Str">Application</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">Application</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{7D0DC34F-238F-41CA-B7E3-C9E2F0708FAC}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Turbulence.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="My Source Distribution" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{86A0F0FE-98F4-4ABC-9B66-6332F275604A}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">My Source Distribution</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/My Source Distribution</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{8B8AF880-5BFF-4791-B915-6354386111C7}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Source Distribution</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Source Distribution/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C81C376E-FD69-4120-A5F6-33479ACF655A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/OldVersions</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SubVIs</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Tests</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Intialize.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Turbulence_3.2.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/LightField Automation.lvclass</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
